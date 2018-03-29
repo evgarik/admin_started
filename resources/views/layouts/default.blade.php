@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>
         @section('title')
-            | Josh Admin Template
+            | Dashboard
         @show
     </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
@@ -30,7 +30,8 @@
 <body class="skin-josh">
 <header class="header">
     <a href="{{ route('dashboard') }}" class="logo">
-        <img src="{{ asset('assets/img/logo.png') }}" alt="logo">
+        <!-- <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> -->
+        AdminArea
     </a>
     <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->
@@ -115,7 +116,7 @@
             <div class="page-sidebar  sidebar-nav">
                 <div class="nav_icons">
                     <ul class="sidebar_threeicons">
-                        <li>
+                        <!-- <li>
                             <a href="{{ URL::to('datatables') }}">
                                 <i class="livicon" data-name="table" title="Advanced tables" data-loop="true"
                                    data-color="#418BCA" data-hc="#418BCA" data-s="25"></i>
@@ -132,7 +133,7 @@
                                 <i class="livicon" data-name="image" title="Gallery" data-loop="true"
                                    data-color="#F89A14" data-hc="#F89A14" data-s="25"></i>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="{{ URL::to('users') }}">
                                 <i class="livicon" data-name="user" title="Users" data-loop="true"
